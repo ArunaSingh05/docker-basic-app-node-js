@@ -1,6 +1,6 @@
-FROM node:16
+FROM node
 
-WORKDIR /Users/asingh/projects/dockerExamples/nodeFirstDockerImage
+WORKDIR PATH_OF_DIRECTORY
 
 COPY package*.json ./
 
